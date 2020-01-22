@@ -4,6 +4,5 @@ const jwt = require('jsonwebtoken');
 
 exports.login = async(req, res)=>{
     const token = jwt.sign({id: "111"}, req.app.get('secretKey'), { expiresIn: '1h' });
-    console.log("token ",token)
     responseCtrl.sendSuccess(res, {token: token})
 }
