@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const properties = require('./properties.json')
-const environment = "staging"
+const environment = "production"
 
 const mongoDB = properties[environment].databaseURL+properties[environment].databaseName
 

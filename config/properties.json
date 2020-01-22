@@ -7,12 +7,12 @@
     "preproduction":{
         "databaseURL": "mongodb://localhost/",
         "databaseName": "test_app",
-        "port": 7001
+        "port": 7000
     },
     "production":{
-        "databaseURL": "mongodb://localhost/",
-        "databaseName": "test_app",
-        "port": 7002
+        "databaseURL": "mongodb://nanda:nanda23311@ds211709.mlab.com:11709/",
+        "databaseName": "gloc",
+        "port": 7000
     }
 
 }
