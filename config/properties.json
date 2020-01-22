@@ -1,0 +1,18 @@
+{
+    "staging":{
+        "databaseURL": "mongodb://localhost/",
+        "databaseName": "test_app",
+        "port": 7000
+    },
+    "preproduction":{
+        "databaseURL": "mongodb://localhost/",
+        "databaseName": "test_app",
+        "port": 7001
+    },
+    "production":{
+        "databaseURL": "mongodb://localhost/",
+        "databaseName": "test_app",
+        "port": 7002
+    }
+
+}
