@@ -7,7 +7,7 @@ const app = express();
 const router = require('./router')
 const environment = "production"
 const properties = require('./config/properties.json')
-const port = properties[environment].port
+const port = process.env.PORT || properties[environment].port
 const cors = require("cors")
 app.use(cors())
 app.set('secretKey', 'key'); // jwt secret token
